@@ -1,0 +1,27 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+.main-container
+{
+    display: grid;
+    grid-template-rows: 60px 60px 300px;
+}
+.scoreboard
+{
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 60px;
+}
+.gameboard-container
+{
+    display: grid;
+    grid-template-rows: 90px 90px 90px;
+    grid-template-columns: 90px 90px 90px;
+}
+.scoreboard-cell
+{
+    border: 1px solid red;
+    width: 90px;
+    height: 90px;
+}
